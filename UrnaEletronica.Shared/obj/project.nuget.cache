@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tqB/DRlyVh82VsMuNV+nfu/w2cEIeSRG9F+nhwanXg+ZQEhN6AO7/LLfbImsRFJpV8pmhNkdTymZTu3ZiBL+JQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Shared\\UrnaEletronica.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fehli\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
