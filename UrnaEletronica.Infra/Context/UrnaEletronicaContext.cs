@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UrnaEletronica.Domains.Entities;
+using UrnaEletronica.Infra.Data.Extensions;
 
 namespace UrnaEletronica.Infra.Data.Context
 {
@@ -13,7 +14,6 @@ namespace UrnaEletronica.Infra.Data.Context
         #region DbSets
         public DbSet<Candidato> Candidatos => Set<Candidato>();
         #endregion
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

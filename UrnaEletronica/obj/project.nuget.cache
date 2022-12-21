@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TnpVVbnkKYRaJdLORqN1A49FibA2XA5D+2G/L75Bj8IV6HJljGdlCLOU6vkY4n7Slh0l57uNsn2imaSehPkDTA==",
+  "dgSpecHash": "CsydnsjVC9E5gkyuhwy7JXP/k2OXESTV7cNRQDl5vGCQEUC4RWxhQsLRbRh1RitIQnrNoLl3DT6WnGe+9iqhDQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.1\\microsoft.entityframeworkcore.analyzers.7.0.1.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.1\\microsoft.entityframeworkcore.design.7.0.1.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.1\\microsoft.entityframeworkcore.relational.7.0.1.nupkg.sha512",
+    "C:\\Users\\fehli\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.1\\microsoft.entityframeworkcore.tools.7.0.1.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

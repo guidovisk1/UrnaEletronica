@@ -9,13 +9,12 @@ using UrnaEletronica.Infra.Data.Mappings;
 
 namespace UrnaEletronica.Infra.Data.Extensions
 {
-    public class ModelBuilderExtensions
+    public static class ModelBuilderExtensions
     {
         public static ModelBuilder ConfigureMappings(this ModelBuilder builder)
         {
             #region Mapping Entities
             builder.ApplyConfiguration(new CandidatoMap());
-       
             #endregion
 
             return builder;

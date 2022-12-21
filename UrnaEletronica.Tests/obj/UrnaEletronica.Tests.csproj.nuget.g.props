@@ -24,6 +24,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\fehli\.nuget\packages\xunit.analyzers\1.0.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\fehli\.nuget\packages\microsoft.entityframeworkcore.tools\7.0.1</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\fehli\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
   </PropertyGroup>
 </Project>
