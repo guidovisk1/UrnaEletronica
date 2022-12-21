@@ -1,0 +1,12 @@
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\bin\Debug\net6.0\UrnaEletronica.Shared.deps.json
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\bin\Debug\net6.0\UrnaEletronica.Shared.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\bin\Debug\net6.0\UrnaEletronica.Shared.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\UrnaEletronica.Shared.csproj.AssemblyReference.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\UrnaEletronica.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\UrnaEletronica.Shared.AssemblyInfoInputs.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\UrnaEletronica.Shared.AssemblyInfo.cs
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\UrnaEletronica.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\UrnaEletronica.Shared.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\refint\UrnaEletronica.Shared.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\UrnaEletronica.Shared.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Shared\obj\Debug\net6.0\ref\UrnaEletronica.Shared.dll

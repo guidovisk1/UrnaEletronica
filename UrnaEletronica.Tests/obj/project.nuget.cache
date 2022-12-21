@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9oDq+HMj8c+KXO2Z/tf2CnP9EjvuW7+EyPVEDTY1kD9YnBbS4vsE1Jg0aBNpSDfgZ2whM5BzIHQtzEP0Z1v17A==",
+  "dgSpecHash": "fPmpB6Y2JugAySfZPPFidbIko5/PcaNtY0qVC1G+OgEx2OhUBp/SP+IKcmZ13LFvCD81wxa9QCFyrynZgE+wDA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Tests\\UrnaEletronica.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fehli\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\fehli\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",

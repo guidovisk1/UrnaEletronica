@@ -1,0 +1,15 @@
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Domains.deps.json
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Domains.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Domains.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Shared.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Shared.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.csproj.AssemblyReference.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.AssemblyInfoInputs.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.AssemblyInfo.cs
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.csproj.CoreCompileInputs.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.csproj.CopyComplete
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\refint\UrnaEletronica.Domains.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\ref\UrnaEletronica.Domains.dll

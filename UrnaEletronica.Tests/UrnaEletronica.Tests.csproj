@@ -21,4 +21,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UrnaEletronica.Domains\UrnaEletronica.Domains.csproj" />
+  </ItemGroup>
+
 </Project>
