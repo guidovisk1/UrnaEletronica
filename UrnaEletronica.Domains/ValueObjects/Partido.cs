@@ -1,5 +1,6 @@
 ﻿
 
+using Flunt.Validations;
 using UrnaEletronica.Shared.ValueObjects;
 
 namespace UrnaEletronica.Domains.ValueObjects
@@ -11,6 +12,11 @@ namespace UrnaEletronica.Domains.ValueObjects
             Nome = nome;
             DataCriacao = dataCriacao;
             Sigla = sigla;
+
+            AddNotifications(new Contract<Partido>()
+                .Requires()
+                .IsGreaterOrEqualsThan(3, Nome.Length, "Partido.Nome", "O nome do partido não pode ter menos de 3 caracteres")
+                );
         }
 
         public string Nome { get; private set; }

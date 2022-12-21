@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Flunt.Validations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,13 +10,17 @@ namespace UrnaEletronica.Domains.ValueObjects
 {
     public sealed class Idade : ValueObject
     {
-        public Idade(int numero, DateOnly dataNascimento)
+        public Idade(int numero)
         {
             Numero = numero;
-            DataNascimento = dataNascimento;
+
+            AddNotifications(new Contract<Idade>()
+                .Requires()
+                .IsGreaterOrEqualsThan(18,Numero, "Idade.Numero", "O eleitor deve ser maior de 18 anos")
+                );
         }
 
         public int Numero { get; private set; }
-        public DateOnly DataNascimento { get; private set; }
+       
     }
 }

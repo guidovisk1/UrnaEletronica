@@ -15,6 +15,8 @@ namespace UrnaEletronica.Domains.Entities
             Nome = nome;
             Idade = idade;
             Partido = partido;
+
+            AddNotifications(Nome,Idade,Partido);
         }
 
         public Nome Nome { get; private set; }

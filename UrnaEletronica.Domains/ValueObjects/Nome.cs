@@ -18,6 +18,10 @@ namespace UrnaEletronica.Domains.ValueObjects
 
             AddNotifications(new Contract<Nome>()
                 .Requires()
+                .IsGreaterOrEqualsThan(3, PrimeiroNome.Length, "Nome.PrimeiroNome", "O primero nome do candidato não poder ter menos de 3 caracteres")
+                .IsGreaterOrEqualsThan(4, Sobrenome.Length, "Nome.Sobrenome", "O Sobrenome nome do candidato não poder ter menos de 4 caracteres")
+                .IsNotEmpty(PrimeiroNome,"O primeiro nome não pode ser vazio")
+                .IsNotEmpty(Sobrenome, "O sobrenome nome não pode ser vazio")
                 );
         }
 
