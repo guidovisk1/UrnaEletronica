@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UrnaEletronica.Domains.Entities;
+using UrnaEletronica.Infra.Data.Context;
 using UrnaEletronica.Infra.Data.Mappings;
 
 namespace UrnaEletronica.Infra.Data.Extensions
@@ -19,5 +20,15 @@ namespace UrnaEletronica.Infra.Data.Extensions
 
             return builder;
         }
+
+        public static ModelBuilder SeedData(this ModelBuilder builder)
+        {
+            builder.Entity<Candidato>(b =>
+            {
+                b.HasData(InitialData.Candidatos);
+            });
+            return builder;
+        }
+       
     }
 }
