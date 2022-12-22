@@ -2435,6 +2435,19 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "UrnaEletronica.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "UrnaEletronica.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UrnaEletronica.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UrnaEletronica.Domain.Core.dll": {}
+        }
+      },
       "UrnaEletronica.Domains/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2444,6 +2457,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "7.0.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
+          "UrnaEletronica.Domain.Core": "1.0.0",
           "UrnaEletronica.Shared": "1.0.0"
         },
         "compile": {
@@ -7570,6 +7584,11 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "UrnaEletronica.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../UrnaEletronica.Domain.Core/UrnaEletronica.Domain.Core.csproj",
+      "msbuildProject": "../UrnaEletronica.Domain.Core/UrnaEletronica.Domain.Core.csproj"
     },
     "UrnaEletronica.Domains/1.0.0": {
       "type": "project",

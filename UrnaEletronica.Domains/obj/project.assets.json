@@ -628,6 +628,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "UrnaEletronica.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "UrnaEletronica.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UrnaEletronica.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UrnaEletronica.Domain.Core.dll": {}
+        }
+      },
       "UrnaEletronica.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1454,6 +1467,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "UrnaEletronica.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../UrnaEletronica.Domain.Core/UrnaEletronica.Domain.Core.csproj",
+      "msbuildProject": "../UrnaEletronica.Domain.Core/UrnaEletronica.Domain.Core.csproj"
+    },
     "UrnaEletronica.Shared/1.0.0": {
       "type": "project",
       "path": "../UrnaEletronica.Shared/UrnaEletronica.Shared.csproj",
@@ -1469,6 +1487,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.1",
+      "UrnaEletronica.Domain.Core >= 1.0.0",
       "UrnaEletronica.Shared >= 1.0.0"
     ]
   },
@@ -1505,6 +1524,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Domain.Core\\UrnaEletronica.Domain.Core.csproj": {
+              "projectPath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Domain.Core\\UrnaEletronica.Domain.Core.csproj"
+            },
             "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Shared\\UrnaEletronica.Shared.csproj": {
               "projectPath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Shared\\UrnaEletronica.Shared.csproj"
             }
