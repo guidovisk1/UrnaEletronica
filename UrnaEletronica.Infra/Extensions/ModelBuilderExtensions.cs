@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Flunt.Notifications;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,15 +19,6 @@ namespace UrnaEletronica.Infra.Data.Extensions
             builder.ApplyConfiguration(new CandidatoMap());
             #endregion
 
-            return builder;
-        }
-
-        public static ModelBuilder SeedData(this ModelBuilder builder)
-        {
-            builder.Entity<Candidato>(b =>
-            {
-                b.HasData(InitialData.Candidatos);
-            });
             return builder;
         }
        

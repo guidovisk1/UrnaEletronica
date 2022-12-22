@@ -10,6 +10,10 @@ namespace UrnaEletronica.Domains.Entities
 {
    public sealed class Candidato : Entity
     {
+        private Candidato() //For EF core 
+        {
+        }
+
         public Candidato(Nome nome, Idade idade, Partido partido)
         {
             Nome = nome;

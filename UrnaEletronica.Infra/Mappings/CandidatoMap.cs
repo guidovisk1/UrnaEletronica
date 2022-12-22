@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UrnaEletronica.Domains.Entities;
+using UrnaEletronica.Domains.ValueObjects;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace UrnaEletronica.Infra.Data.Mappings
 {
@@ -25,6 +27,8 @@ namespace UrnaEletronica.Infra.Data.Mappings
                 .HasColumnName("Sobrenome")
                 .HasColumnType("varchar(50)")
                 ;
+                nome.Ignore(n => n.Notifications);
+
             });
 
             builder.OwnsOne(candidato => candidato.Partido, partido =>
@@ -38,6 +42,8 @@ namespace UrnaEletronica.Infra.Data.Mappings
                 partido.Property(candidato => candidato.DataCriacao)
                 .HasColumnType("DataCriacao")
                 .HasColumnType("date");
+                partido.Ignore(p => p.Notifications);
+
             });
 
             builder.OwnsOne(candidato => candidato.Idade, idade =>
@@ -45,7 +51,10 @@ namespace UrnaEletronica.Infra.Data.Mappings
                 idade.Property(idade => idade.Numero)
                 .HasColumnName("Idade")
                 .HasColumnType("integer");
+                idade.Ignore(i => i.Notifications);
             });
+
+            builder.Ignore(c => c.Notifications);
         }
     }
 }

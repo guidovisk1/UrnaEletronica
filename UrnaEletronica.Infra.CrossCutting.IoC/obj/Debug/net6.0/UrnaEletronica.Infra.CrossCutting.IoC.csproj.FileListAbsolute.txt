@@ -1,0 +1,14 @@
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.deps.json
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.runtimeconfig.json
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.csproj.AssemblyReference.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\refint\UrnaEletronica.Infra.CrossCutting.IoC.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.genruntimeconfig.cache
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\ref\UrnaEletronica.Infra.CrossCutting.IoC.dll

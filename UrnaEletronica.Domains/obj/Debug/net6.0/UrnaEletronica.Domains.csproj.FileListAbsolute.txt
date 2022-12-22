@@ -1,4 +1,5 @@
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Domains.deps.json
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Domains.runtimeconfig.json
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Domains.dll
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Domains.pdb
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\bin\Debug\net6.0\UrnaEletronica.Shared.dll
@@ -12,4 +13,5 @@ C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronic
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.dll
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\refint\UrnaEletronica.Domains.dll
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\UrnaEletronica.Domains.genruntimeconfig.cache
 C:\Projects\UrnaEletronica\UrnaEletronica.Domains\obj\Debug\net6.0\ref\UrnaEletronica.Domains.dll
