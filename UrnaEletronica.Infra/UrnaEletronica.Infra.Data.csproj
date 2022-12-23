@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\UrnaEletronica.Domain.Core\UrnaEletronica.Domain.Core.csproj" />
     <ProjectReference Include="..\UrnaEletronica.Domains\UrnaEletronica.Domains.csproj" />
   </ItemGroup>
 

@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Domains", "U
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Shared", "UrnaEletronica.Shared\UrnaEletronica.Shared.csproj", "{237F6B4E-9204-4F22-BE75-CD1644607DFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.Tests", "UrnaEletronica.Tests\UrnaEletronica.Tests.csproj", "{C333ACFC-16A2-400F-9C04-CBB212CF0202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Tests", "UrnaEletronica.Tests\UrnaEletronica.Tests.csproj", "{C333ACFC-16A2-400F-9C04-CBB212CF0202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.Infra.Data", "UrnaEletronica.Infra\UrnaEletronica.Infra.Data.csproj", "{89A76FDB-290D-4AA4-B57C-C7B6D4476F32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Infra.Data", "UrnaEletronica.Infra\UrnaEletronica.Infra.Data.csproj", "{89A76FDB-290D-4AA4-B57C-C7B6D4476F32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.Infra.CrossCutting.IoC", "UrnaEletronica.Infra.CrossCutting.IoC\UrnaEletronica.Infra.CrossCutting.IoC.csproj", "{EB62331C-4417-438F-AA35-3999B82A7B36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Infra.CrossCutting.IoC", "UrnaEletronica.Infra.CrossCutting.IoC\UrnaEletronica.Infra.CrossCutting.IoC.csproj", "{EB62331C-4417-438F-AA35-3999B82A7B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.Domain.Core", "UrnaEletronica.Domain.Core\UrnaEletronica.Domain.Core.csproj", "{542146C7-8DB7-4C2A-8452-D0E32DE11796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.Application", "UrnaEletronica.Application\UrnaEletronica.Application.csproj", "{758776DF-92ED-4721-B06F-987472160622}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{EB62331C-4417-438F-AA35-3999B82A7B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB62331C-4417-438F-AA35-3999B82A7B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB62331C-4417-438F-AA35-3999B82A7B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542146C7-8DB7-4C2A-8452-D0E32DE11796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542146C7-8DB7-4C2A-8452-D0E32DE11796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542146C7-8DB7-4C2A-8452-D0E32DE11796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542146C7-8DB7-4C2A-8452-D0E32DE11796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758776DF-92ED-4721-B06F-987472160622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758776DF-92ED-4721-B06F-987472160622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758776DF-92ED-4721-B06F-987472160622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758776DF-92ED-4721-B06F-987472160622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
