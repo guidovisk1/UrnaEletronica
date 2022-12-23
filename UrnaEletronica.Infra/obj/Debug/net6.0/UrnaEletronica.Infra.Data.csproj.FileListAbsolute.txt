@@ -17,3 +17,5 @@ C:\Projects\UrnaEletronica\UrnaEletronica.Infra\obj\Debug\net6.0\refint\UrnaElet
 C:\Projects\UrnaEletronica\UrnaEletronica.Infra\obj\Debug\net6.0\UrnaEletronica.Infra.Data.pdb
 C:\Projects\UrnaEletronica\UrnaEletronica.Infra\obj\Debug\net6.0\UrnaEletronica.Infra.Data.genruntimeconfig.cache
 C:\Projects\UrnaEletronica\UrnaEletronica.Infra\obj\Debug\net6.0\ref\UrnaEletronica.Infra.Data.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra\bin\Debug\net6.0\UrnaEletronica.Domain.Core.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra\bin\Debug\net6.0\UrnaEletronica.Domain.Core.pdb

@@ -1,79 +1,55 @@
+using UrnaEletronica.AppServices.Interfaces;
+using UrnaEletronica.AppServices.ViewModel;
+
 namespace UrnaEletronica
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private readonly ICandidatoService _candidatoServices;
+        private IList<CandidatoViewModel> _lstCandidatos;
+        private CandidatoViewModel? _candidatoAtual;
+
+        public Form1(ICandidatoService candidatoServices)
         {
             InitializeComponent();
+
+            _candidatoServices = candidatoServices;
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private async void Form1_Load(object sender, EventArgs e)
         {
-
+            _lstCandidatos = (List<CandidatoViewModel>)await _candidatoServices.GetAllAsync();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnConfirma_Click(object sender, EventArgs e)
         {
-
+            // Salvar no .txt
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        private void btnNumeroUm_Click(object sender, EventArgs e)
         {
-
+            DigitarVoto(1);
         }
 
-        private void button12_Click(object sender, EventArgs e)
+        private void btnNumeroTres_Click(object sender, EventArgs e)
         {
-
+            DigitarVoto(3);
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void DigitarVoto(int numeroVoto)
         {
-
+            txtNumVoto.Text += numeroVoto.ToString();
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void txtNumVoto_TextChanged(object sender, EventArgs e)
         {
-
+            if (txtNumVoto.TextLength == 2)
+                _candidatoAtual = _lstCandidatos.FirstOrDefault(c => c.NumeroVoto == txtNumVoto.Text);
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void MostrarCandidato(CandidatoViewModel candidato)
         {
-
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
+            if (_candidatoAtual is not null) ;
 
         }
     }

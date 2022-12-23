@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r4LvPBDhFf3iaB500dYhCSuWBl6bwBSoFOKNCTLZlZbDMI1HE9B8urj2wM0Eyg/oNxWeil8aqpEn+JJu+RlXyw==",
+  "dgSpecHash": "cRMg8hnK704CpYLzRr+1AxCGtnxpzjhHR1Tsxr3kbPvvlpOvHFUAEDoLzwWodgBiSsxjf5sXUG0Pqr8rrJHT9A==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Application\\UrnaEletronica.Application.csproj",
+  "projectFilePath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Application\\UrnaEletronica.AppServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fehli\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",

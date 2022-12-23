@@ -92,3 +92,11 @@ C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\UrnaEletronic
 C:\Projects\UrnaEletronica\UrnaEletronica\obj\Debug\net6.0-windows\UrnaEletronica.csproj.CopyComplete
 C:\Projects\UrnaEletronica\UrnaEletronica\obj\Debug\net6.0-windows\UrnaEletronica.genruntimeconfig.cache
 C:\Projects\UrnaEletronica\UrnaEletronica\obj\Debug\net6.0-windows\ref\UrnaEletronica.dll
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\UrnaEletronica.Domain.Core.dll
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\UrnaEletronica.Infra.CrossCutting.IoC.dll
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\UrnaEletronica.AppServices.dll
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\UrnaEletronica.Infra.CrossCutting.IoC.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\UrnaEletronica.Domain.Core.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\UrnaEletronica.AppServices.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\AutoMapper.dll
+C:\Projects\UrnaEletronica\UrnaEletronica\bin\Debug\net6.0-windows\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

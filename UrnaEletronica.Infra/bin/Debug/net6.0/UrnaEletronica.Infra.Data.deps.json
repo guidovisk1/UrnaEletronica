@@ -16,6 +16,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
           "SQLitePCLRaw.core": "2.1.3",
+          "UrnaEletronica.Domain.Core": "1.0.0",
           "UrnaEletronica.Domains": "1.0.0"
         },
         "runtime": {
@@ -462,6 +463,14 @@
           }
         }
       },
+      "UrnaEletronica.Domain.Core/1.0.0": {
+        "dependencies": {
+          "UrnaEletronica.Shared": "1.0.0"
+        },
+        "runtime": {
+          "UrnaEletronica.Domain.Core.dll": {}
+        }
+      },
       "UrnaEletronica.Domains/1.0.0": {
         "dependencies": {
           "Flunt": "2.0.5",
@@ -469,6 +478,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "7.0.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
+          "UrnaEletronica.Domain.Core": "1.0.0",
           "UrnaEletronica.Shared": "1.0.0"
         },
         "runtime": {
@@ -725,6 +735,11 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "UrnaEletronica.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "UrnaEletronica.Domains/1.0.0": {
       "type": "project",

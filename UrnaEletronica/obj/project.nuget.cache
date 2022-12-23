@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ltkyjeRH9lWiBW+yz/JLgE79aGwf8kQ1oQOO1qMftK3viHFHUviPRW9PYfi9E9rnacov6vNCgJjL83aExJVFPA==",
+  "dgSpecHash": "FBYwv4aOBXZQbBX4P9JBSG85RP1MuRn7NoJqOdncG1IZMfoAE8Uxekhb2cccfkcEnqktSObd95YFJu6ZMKik8g==",
   "success": true,
   "projectFilePath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fehli\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\fehli\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\fehli\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.1\\microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.1\\microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
     "C:\\Users\\fehli\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.1\\microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",

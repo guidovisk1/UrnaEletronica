@@ -1462,9 +1462,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Application\\UrnaEletronica.Application.csproj",
-      "projectName": "UrnaEletronica.Application",
-      "projectPath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Application\\UrnaEletronica.Application.csproj",
+      "projectUniqueName": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Application\\UrnaEletronica.AppServices.csproj",
+      "projectName": "UrnaEletronica.AppServices",
+      "projectPath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Application\\UrnaEletronica.AppServices.csproj",
       "packagesPath": "C:\\Users\\fehli\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\UrnaEletronica\\UrnaEletronica.Application\\obj\\",
       "projectStyle": "PackageReference",

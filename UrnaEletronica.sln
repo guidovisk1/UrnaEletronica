@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Infra.Data",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Infra.CrossCutting.IoC", "UrnaEletronica.Infra.CrossCutting.IoC\UrnaEletronica.Infra.CrossCutting.IoC.csproj", "{EB62331C-4417-438F-AA35-3999B82A7B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.Domain.Core", "UrnaEletronica.Domain.Core\UrnaEletronica.Domain.Core.csproj", "{542146C7-8DB7-4C2A-8452-D0E32DE11796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrnaEletronica.Domain.Core", "UrnaEletronica.Domain.Core\UrnaEletronica.Domain.Core.csproj", "{542146C7-8DB7-4C2A-8452-D0E32DE11796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.Application", "UrnaEletronica.Application\UrnaEletronica.Application.csproj", "{758776DF-92ED-4721-B06F-987472160622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrnaEletronica.AppServices", "UrnaEletronica.AppServices\UrnaEletronica.AppServices.csproj", "{0C1948ED-219A-4015-A0EA-5733D8DC3BF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{542146C7-8DB7-4C2A-8452-D0E32DE11796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{542146C7-8DB7-4C2A-8452-D0E32DE11796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{542146C7-8DB7-4C2A-8452-D0E32DE11796}.Release|Any CPU.Build.0 = Release|Any CPU
-		{758776DF-92ED-4721-B06F-987472160622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{758776DF-92ED-4721-B06F-987472160622}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{758776DF-92ED-4721-B06F-987472160622}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{758776DF-92ED-4721-B06F-987472160622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1948ED-219A-4015-A0EA-5733D8DC3BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1948ED-219A-4015-A0EA-5733D8DC3BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1948ED-219A-4015-A0EA-5733D8DC3BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1948ED-219A-4015-A0EA-5733D8DC3BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,4 +22,9 @@
     <PackageReference Include="SQLitePCLRaw.core" Version="2.1.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UrnaEletronica.AppServices\UrnaEletronica.AppServices.csproj" />
+    <ProjectReference Include="..\UrnaEletronica.Infra\UrnaEletronica.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

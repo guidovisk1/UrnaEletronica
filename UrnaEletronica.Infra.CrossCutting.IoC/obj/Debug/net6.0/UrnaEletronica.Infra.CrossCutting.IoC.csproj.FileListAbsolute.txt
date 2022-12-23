@@ -12,3 +12,14 @@ C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.
 C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.pdb
 C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.genruntimeconfig.cache
 C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\ref\UrnaEletronica.Infra.CrossCutting.IoC.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.AppServices.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Domain.Core.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Domains.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Infra.Data.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Shared.dll
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.AppServices.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Infra.Data.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Domain.Core.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Domains.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\bin\Debug\net6.0\UrnaEletronica.Shared.pdb
+C:\Projects\UrnaEletronica\UrnaEletronica.Infra.CrossCutting.IoC\obj\Debug\net6.0\UrnaEletronica.Infra.CrossCutting.IoC.csproj.CopyComplete

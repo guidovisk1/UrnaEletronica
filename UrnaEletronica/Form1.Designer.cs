@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnNumeroDois = new System.Windows.Forms.Button();
+            this.btnNumeroTres = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -38,51 +37,41 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnConfirma = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtNumVoto = new System.Windows.Forms.TextBox();
+            this.lblIdade = new System.Windows.Forms.Label();
+            this.lblPartido = new System.Windows.Forms.Label();
+            this.lblNomeCandidato = new System.Windows.Forms.Label();
+            this.pbCandidato = new System.Windows.Forms.PictureBox();
+            this.btnNumeroUm = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnNumeroDois
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(405, 49);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnNumeroDois.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNumeroDois.Location = new System.Drawing.Point(500, 49);
+            this.btnNumeroDois.Name = "btnNumeroDois";
+            this.btnNumeroDois.Size = new System.Drawing.Size(75, 23);
+            this.btnNumeroDois.TabIndex = 1;
+            this.btnNumeroDois.Text = "2";
+            this.btnNumeroDois.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnNumeroTres
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(500, 49);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Location = new System.Drawing.Point(601, 49);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnNumeroTres.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNumeroTres.Location = new System.Drawing.Point(601, 49);
+            this.btnNumeroTres.Name = "btnNumeroTres";
+            this.btnNumeroTres.Size = new System.Drawing.Size(75, 23);
+            this.btnNumeroTres.TabIndex = 2;
+            this.btnNumeroTres.Text = "3";
+            this.btnNumeroTres.UseVisualStyleBackColor = true;
+            this.btnNumeroTres.Click += new System.EventHandler(this.btnNumeroTres_Click);
             // 
             // button4
             // 
@@ -93,7 +82,6 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -104,7 +92,6 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -115,7 +102,6 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -126,7 +112,6 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -137,7 +122,6 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -148,7 +132,6 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -159,20 +142,19 @@
             this.button10.TabIndex = 9;
             this.button10.Text = "0";
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // button11
+            // btnConfirma
             // 
-            this.button11.BackColor = System.Drawing.Color.Green;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button11.Location = new System.Drawing.Point(596, 167);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(93, 32);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "CONFIRMA";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.btnConfirma.BackColor = System.Drawing.Color.Green;
+            this.btnConfirma.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConfirma.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnConfirma.Location = new System.Drawing.Point(596, 167);
+            this.btnConfirma.Name = "btnConfirma";
+            this.btnConfirma.Size = new System.Drawing.Size(93, 32);
+            this.btnConfirma.TabIndex = 10;
+            this.btnConfirma.Text = "CONFIRMA";
+            this.btnConfirma.UseVisualStyleBackColor = false;
+            this.btnConfirma.Click += new System.EventHandler(this.btnConfirma_Click);
             // 
             // button12
             // 
@@ -185,7 +167,6 @@
             this.button12.TabIndex = 11;
             this.button12.Text = "CORRIGE";
             this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -197,7 +178,6 @@
             this.button13.TabIndex = 12;
             this.button13.Text = "BRANCO";
             this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label1
             // 
@@ -212,50 +192,72 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.txtNumVoto);
+            this.panel1.Controls.Add(this.lblIdade);
+            this.panel1.Controls.Add(this.lblPartido);
+            this.panel1.Controls.Add(this.lblNomeCandidato);
+            this.panel1.Controls.Add(this.pbCandidato);
             this.panel1.Location = new System.Drawing.Point(32, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(287, 234);
             this.panel1.TabIndex = 14;
             // 
-            // label4
+            // txtNumVoto
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(168, 164);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.txtNumVoto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNumVoto.Location = new System.Drawing.Point(3, 37);
+            this.txtNumVoto.Name = "txtNumVoto";
+            this.txtNumVoto.ReadOnly = true;
+            this.txtNumVoto.Size = new System.Drawing.Size(83, 29);
+            this.txtNumVoto.TabIndex = 4;
+            this.txtNumVoto.TextChanged += new System.EventHandler(this.txtNumVoto_TextChanged);
             // 
-            // label3
+            // lblIdade
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(92, 164);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblIdade.AutoSize = true;
+            this.lblIdade.Location = new System.Drawing.Point(118, 157);
+            this.lblIdade.Name = "lblIdade";
+            this.lblIdade.Size = new System.Drawing.Size(38, 15);
+            this.lblIdade.TabIndex = 3;
+            this.lblIdade.Text = "label4";
             // 
-            // label2
+            // lblPartido
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(128, 135);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblPartido.AutoSize = true;
+            this.lblPartido.Location = new System.Drawing.Point(118, 180);
+            this.lblPartido.Name = "lblPartido";
+            this.lblPartido.Size = new System.Drawing.Size(38, 15);
+            this.lblPartido.TabIndex = 2;
+            this.lblPartido.Text = "label3";
             // 
-            // pictureBox1
+            // lblNomeCandidato
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox1.Location = new System.Drawing.Point(92, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(114, 100);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.lblNomeCandidato.AutoSize = true;
+            this.lblNomeCandidato.Location = new System.Drawing.Point(118, 135);
+            this.lblNomeCandidato.Name = "lblNomeCandidato";
+            this.lblNomeCandidato.Size = new System.Drawing.Size(38, 15);
+            this.lblNomeCandidato.TabIndex = 1;
+            this.lblNomeCandidato.Text = "label2";
+            // 
+            // pbCandidato
+            // 
+            this.pbCandidato.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pbCandidato.Location = new System.Drawing.Point(92, 22);
+            this.pbCandidato.Name = "pbCandidato";
+            this.pbCandidato.Size = new System.Drawing.Size(114, 100);
+            this.pbCandidato.TabIndex = 0;
+            this.pbCandidato.TabStop = false;
+            // 
+            // btnNumeroUm
+            // 
+            this.btnNumeroUm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNumeroUm.Location = new System.Drawing.Point(405, 49);
+            this.btnNumeroUm.Name = "btnNumeroUm";
+            this.btnNumeroUm.Size = new System.Drawing.Size(75, 23);
+            this.btnNumeroUm.TabIndex = 0;
+            this.btnNumeroUm.Text = "1";
+            this.btnNumeroUm.UseVisualStyleBackColor = true;
+            this.btnNumeroUm.Click += new System.EventHandler(this.btnNumeroUm_Click);
             // 
             // Form1
             // 
@@ -267,7 +269,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.btnConfirma);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -275,27 +277,24 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Controls.Add(this.btnNumeroTres);
+            this.Controls.Add(this.btnNumeroDois);
+            this.Controls.Add(this.btnNumeroUm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button btnNumeroDois;
+        private Button btnNumeroTres;
         private Button button4;
         private Button button5;
         private Button button6;
@@ -303,14 +302,16 @@
         private Button button8;
         private Button button9;
         private Button button10;
-        private Button button11;
+        private Button btnConfirma;
         private Button button12;
         private Button button13;
         private Label label1;
         private Panel panel1;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private PictureBox pictureBox1;
+        private Label lblIdade;
+        private Label lblPartido;
+        private Label lblNomeCandidato;
+        private PictureBox pbCandidato;
+        private Button btnNumeroUm;
+        private TextBox txtNumVoto;
     }
 }

@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using UrnaEletronica.AppServices.AutoMapper;
+using UrnaEletronica.Infra.CrossCutting.IoC;
 using UrnaEletronica.Infra.Data.Context;
 
 namespace UrnaEletronica
@@ -17,8 +19,8 @@ namespace UrnaEletronica
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddSingleton<Form1>();
-                    services.AddDbContext<UrnaEletronicaContext>();
-                    services.AddScoped<UrnaEletronicaContext>();
+                    services.AddAutoMapper(typeof(DomainToViewModelProfile));
+                    services.RegisterServices();
                 });
             var host = builder.Build();
 
